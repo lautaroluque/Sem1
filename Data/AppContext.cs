@@ -6,8 +6,7 @@ namespace Data
 {
     public class AppContext : IdentityDbContext<ApplicationUser>
     {
-        public AppContext()
-            : base("Sem1Db", throwIfV1Schema: false)
+        public AppContext() : base("Sem1Db", throwIfV1Schema: false)
         {
         }
 

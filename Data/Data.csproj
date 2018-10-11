@@ -55,9 +55,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AppContext.cs" />
-    <Compile Include="Migrations\201809211530189_AddIdentity.cs" />
-    <Compile Include="Migrations\201809211530189_AddIdentity.Designer.cs">
-      <DependentUpon>201809211530189_AddIdentity.cs</DependentUpon>
+    <Compile Include="Migrations\201810111911356_Initial.cs" />
+    <Compile Include="Migrations\201810111911356_Initial.Designer.cs">
+      <DependentUpon>201810111911356_Initial.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -69,14 +69,14 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Bussiness\Entities.csproj">
-      <Project>{A5780868-529A-490C-9DDB-02BF3DEC3758}</Project>
+    <ProjectReference Include="..\Entities\Entities.csproj">
+      <Project>{a5780868-529a-490c-9ddb-02bf3dec3758}</Project>
       <Name>Entities</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201809211530189_AddIdentity.resx">
-      <DependentUpon>201809211530189_AddIdentity.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201810111911356_Initial.resx">
+      <DependentUpon>201810111911356_Initial.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
